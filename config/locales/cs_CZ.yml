@@ -44,14 +44,14 @@ cs_CZ:
   date:
     abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
     abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
-    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    day_names: [neděle, pondělí, úterý, středa, čtvrtek, pátek, sobota]
     formats:
-      default: "%Y-%m-%d"
+      default: "%d.%m.%Y"
       long: "%B %e, %Y"
       only_day: "%e"
       short: "%e %b"
-    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]   
-    order: [ :year, :month, :day ]
+    month_names: [~, leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec]   
+    order: [ :day, :month, :year ]
   delete_layout: 'Delete Layout'
   delete_pages: 'Delete {{pages}}'  
   delete_snippet: 'Delete Snippet'
@@ -158,7 +158,7 @@ cs_CZ:
       remove_warning: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following snippet?'
     users: 
       remove_warning: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following user?'
-  this_file_language: "English" 
+  this_file_language: "Čeština" 
   time:
     am: 'am'
     formats:
