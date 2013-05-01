@@ -51,7 +51,10 @@ cs_CZ:
       only_day: "%e"
       short: "%e %b"
     month_names: [~, leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec]   
-    order: [ :day, :month, :year ]
+    order:
+        - :day
+        - :month
+        - :year
   delete_layout: 'Delete Layout'
   delete_pages: 'Delete {{pages}}'  
   delete_snippet: 'Delete Snippet'
